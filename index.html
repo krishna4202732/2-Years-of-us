@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A cinematic anniversary website made with HTML, CSS, and JavaScript." />
+  <title>2 Years of Us</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="loader" aria-hidden="true">
+    <div class="loader__glow"></div>
+    <p>Wait kar MOTII😏...</p>
+    <div class="loader__bar"><span></span></div>
+  </div>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="stars-layer" id="starsLayer" aria-hidden="true"></div>
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <main class="page-shell">
+    <section class="hero section" id="top">
+      <nav class="topbar" aria-label="Anniversary controls">
+        <a href="#top" class="brand">
+          <span class="brand__icon">♥</span>
+          <span>Anniversary</span>
+        </a>
+        <button class="icon-button" id="musicToggle" type="button" aria-label="Play music" aria-pressed="false">
+          <span aria-hidden="true" id="musicIcon">♪</span>
+        </button>
+      </nav>
+
+      <div class="hero__aurora"></div>
+      <div class="hero__content reveal">
+        <p class="eyebrow">
+          <span>✦</span>
+          Mai aur meri Yashvi🐥💝
+        </p>
+        <h1>2 Years of Us</h1>
+        <p class="hero__subtitle">730 days of memories, chaos, laughter, growth and love🐥🧸😘.</p>
+        <div class="hero__actions">
+          <button class="primary-button" type="button" data-scroll-target="#memory-gallery">
+            Enter Our Story
+            <span aria-hidden="true">↓</span>
+          </button>
+          <button class="ghost-button timeline-trigger" type="button" id="openTimeline">
+            <span aria-hidden="true">♡</span>
+            Open Our Timeline
+          </button>
+        </div>
+      </div>
+
+      <button class="scroll-cue" type="button" data-scroll-target="#memory-gallery" aria-label="Scroll to memories">
+        ↓
+      </button>
+    </section>
+
+    <section class="section gallery-section reveal" id="memory-gallery">
+      <div class="section-heading">
+        <p class="section-kicker">Memory gallery</p>
+        <h2>Starring Yashvi🐥💝 through my eyes👀</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="polaroid tilt-card" style="--rotate: -5deg; --delay: 0s">
+          <div class="image-frame">
+            <img src="desiMaal.jpg" alt="Gallery memory placeholder" />
+            <span>Add photo</span>
+          </div>
+          <figcaption>A quiet little forever</figcaption>
+        </figure>
+
+        <figure class="polaroid tilt-card" style="--rotate: 4deg; --delay: 0.6s">
+          <div class="image-frame">
+            <img src="maal2.jpg" alt="Gallery memory placeholder" />
+            <span>Add photo</span>
+          </div>
+          <figcaption>My mood maker💝</figcaption>
+        </figure>
+
+        <figure class="polaroid tilt-card" style="--rotate: -2deg; --delay: 1.1s">
+          <div class="image-frame">
+            <img src="shundal.jpg" alt="Gallery memory placeholder" />
+            <span>Add photo</span>
+          </div>
+          <figcaption>Shundal baby🐥</figcaption>
+        </figure>
+
+        <figure class="polaroid tilt-card" style="--rotate: 5deg; --delay: 0.3s">
+          <div class="image-frame">
+            <img src="maa1.jpg" alt="Gallery memory placeholder" />
+            <span>Add photo</span>
+          </div>
+          <figcaption>Hot shawtyy🥵</figcaption>
+        </figure>
+
+        <figure class="polaroid tilt-card" style="--rotate: -4deg; --delay: 0.9s">
+          <div class="image-frame">
+            <img src="choti.jpg" alt="Gallery memory placeholder" />
+            <span>Add photo</span>
+          </div>
+          <figcaption>Ek choti bachii🧸🐥</figcaption>
+        </figure>
+
+        <figure class="polaroid tilt-card" style="--rotate: 3deg; --delay: 1.4s">
+          <div class="image-frame">
+            <img src="bhondu.jpg" alt="Gallery memory placeholder" />
+            <span>Add photo</span>
+          </div>
+          <figcaption>Bhondu ldki😏😏</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section letter-section reveal">
+      <div class="section-heading">
+        <p class="section-kicker">Love letter</p>
+        <h2>Words for the quiet parts, the loud parts, and everything between.</h2>
+      </div>
+
+      <article class="letter-card" id="loveLetter" aria-label="Love letter placeholder">
+        <p>
+          <span>Yashvi...2 years already 😭❤️</span>
+          <span>Still feels crazy sometimes that one random girl became such an important part of my life.</span>
+          <span>We really went from random conversations to literally being part of each other's everyday life.</span>
+          <span>And honestly...thank you for staying through all versions of me.</span>
+          <span>The calm me, the angry me, the overthinking me, the stressed me, the gym obsessed idiot version of me my
+            little baby!💝🐥</span>
+          <span>You stayed through all of it and that means more to me than I can properly explain.</span>
+          <span>I know I do not always say emotional things perfectly but you genuinely matter to me a lot choti
+            chidiya🐥</span>
+          <span>Like a lot lot.</span>
+          <span>We have had cute moments, stupid moments, random fights, mood swings, chaos and everything in
+            between.</span>
+          <span>But somehow even after all that...it is still us.</span>
+          <span>And honestly I love that duude 🧸</span>
+          <span>I still laugh remembering some of our random late night conversations that made absolutely no sense
+            😂</span>
+          <span>Those moments became memories without us even realizing it.</span>
+          <span>Long distance honestly sucks sometimes because there are days where I just wish I could sit beside you
+            peacefully.</span>
+          <span>No calls, no screens, no distance...just us existing together.</span>
+          <span>But even with all this distance, you still somehow make my days better.</span>
+          <span>Your messages, your voice, your drama, your care, your presence...all of it matters to me.</span>
+          <span>And yes your dramatic reactions are still funny 😏😘</span>
+          <span>You have seen me during confusing phases where I was trying to build myself mentally, physically and
+            professionally.</span>
+          <span>And even then you stayed beside me instead of making things harder.</span>
+          <span>I notice those things duude🧸, even if I act dumb sometimes.</span>
+          <span>You became someone I feel safe with emotionally and that is actually rare for me.</span>
+          <span>I can be myself around you without pretending to be some perfect person.</span>
+          <span>Thank you for listening to my nonsense, my plans, my stress and my random overthinking sessions.</span>
+          <span>Thank you for handling me even when I become annoying sometimes 😘</span>
+          <span>And thank you for making life softer during hard days.</span>
+          <span>I genuinely feel lucky that out of all people in this world...I found you.</span>
+          <span>I do not know what the future looks like exactly but I know that these 2 years will always be special to
+            me.</span>
+          <span>You are not just my girlfriend, you became part of my peace, my motivation and my happiness too.</span>
+          <span>And honestly...I still get butterflies sometimes because of you choti chidiya🐥</span>
+          <span>So yeah baby... <b>happy anniversary</b> ❤️</span>
+          <span>Thank you for being my favorite person for the last 2 years.</span>
+          <span>And this is only the beginning My Love😌🐥🧸💝</span>
+        </p>
+      </article>
+    </section>
+
+    <section class="section love-section reveal">
+      <div class="section-heading">
+        <p class="section-kicker">Things I love about you</p>
+        <h2>The small things that somehow became the whole sky for me🐥💝.</h2>
+      </div>
+
+      <div class="love-grid" id="loveGrid"></div>
+    </section>
+
+    <section class="finale section reveal">
+      <div class="finale__particles" id="finaleParticles" aria-hidden="true"></div>
+      <div class="finale__glow"></div>
+      <div class="finale__content">
+        <p>Every ending is just another doorway.</p>
+        <h2>And this is only the beginning.</h2>
+        <h2>Chalo Ab kissey bhjo ek😏😏</h2>
+      </div>
+    </section>
+  </main>
+
+  <div class="timeline-modal" id="timelineModal" aria-hidden="true" hidden>
+    <button class="modal-backdrop" type="button" id="closeTimelineBackdrop" aria-label="Close timeline"></button>
+    <section class="timeline-panel" role="dialog" aria-modal="true" aria-labelledby="timelineTitle">
+      <header class="timeline-header">
+        <div>
+          <p>Hidden chapter</p>
+          <h2 id="timelineTitle">Relationship Timeline</h2>
+        </div>
+        <button class="icon-button" type="button" id="closeTimeline" aria-label="Close relationship timeline">
+          ×
+        </button>
+      </header>
+      <div class="timeline-list" id="timelineList"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
